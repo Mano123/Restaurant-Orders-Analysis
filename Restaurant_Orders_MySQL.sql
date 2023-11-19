@@ -194,3 +194,5 @@ LEFT JOIN order_details ON menu_items.menu_item_id=order_details.item_id
 WHERE order_details.order_id=2675
 GROUP BY category
 ORDER BY num_items DESC;
+
+/*Our results show that Italian food is the food that have the most success based on the clients behavior, so i recommend that we stay focus on this dish*/
